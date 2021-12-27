@@ -79,4 +79,8 @@ class Pix{
             return this.getPixel(coordX, coordY); //return individual pixel
         }
     }
+
+    get(){
+        return this.imageArray;
+    }
 }
