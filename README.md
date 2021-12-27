@@ -1,2 +1,2 @@
 # pix.js
-Pix.js is a tiny library for canvas. It reads image data into Javascript.
+Pix.js is a tiny library for HTML5 Canvas. It reads image data into Javascript.
