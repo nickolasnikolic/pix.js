@@ -65,7 +65,7 @@ class Pix{
         //calculate how far over the offset must be
         let arrayOffSet = coordX + (coordY * this.width);
             
-        //return that object
+        //return that object array
         if(width > 1 || height > 1){
             let subSection = [];
             //get values in square
@@ -76,7 +76,7 @@ class Pix{
             }
             return subSection;
         }else{
-            return this.getPixel(x,y);
+            return this.getPixel(coordX, coordY); //return individual pixel
         }
     }
 }
