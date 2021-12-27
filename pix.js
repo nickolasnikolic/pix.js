@@ -63,17 +63,14 @@ class Pix{
     //get an array of pixels
     getPixelSubsection(coordX, coordY, width, height){
         //calculate how far over the offset must be
-        const x = coordX;
-        const y = coordY;
-
-        let arrayOffSet = x + (y * this.width);
+        let arrayOffSet = coordX + (coordY * this.width);
             
         //return that object
         if(width > 1 || height > 1){
             let subSection = [];
             //get values in square
-            for(let y = y; y < height; y++){
-                for(let x = arrayOffSet; x < arrayOffset + width; x++){
+            for(let y = coordY; y < height; y++){
+                for(let x = arrayOffSet; x < arrayOffSet + width; x++){
                     subSection.push(this.imageArray[x]);
                 }
             }
