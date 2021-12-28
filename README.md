@@ -12,6 +12,6 @@ Pixel objects give you:
 - an x and y
 - rgba values
 - control over thereof
-
-usage: `var p = new Pix(imageUrl);`
-retrieving image data: `p.get();`
+---
+- usage: `var p = new Pix(imageUrl);`
+- retrieving image data: `p.get();`
