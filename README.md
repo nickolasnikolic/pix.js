@@ -15,3 +15,5 @@ Pixel objects give you:
 ---
 - usage: `var p = new Px(imageUrl);`
 - retrieving image data: `p.get();`
+---
+It is the core js used in [this effect](http://perhaps.observer)
