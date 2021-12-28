@@ -1,5 +1,5 @@
-# pix.js
-Pix.js is a tiny library for HTML5 Canvas. It reads image data into Javascript.
+# px.js
+Px.js is a tiny library for HTML5 Canvas. It reads image data into Javascript.
 
 2kb at the time of this writing, the library does just one thing: load image data into JS.
 
@@ -11,7 +11,7 @@ You will find in pix.js:
 Pixel objects give you:
 - an x and y
 - rgba values
-- control over thereof
+
 ---
-- usage: `var p = new Pix(imageUrl);`
+- usage: `var p = new Px(imageUrl);`
 - retrieving image data: `p.get();`

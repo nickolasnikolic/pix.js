@@ -1,5 +1,5 @@
 
-class Pix{
+class Px{
     constructor(imageUrl){
 
         this.imageArray = [];
