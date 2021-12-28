@@ -13,5 +13,5 @@ Pixel objects give you:
 - rgba values
 - control over thereof
 
-usage:
-`var p = new Pix(imageUrl);`
+usage: `var p = new Pix(imageUrl);`
+retrieving image data: `p.get();`
