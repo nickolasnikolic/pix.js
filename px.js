@@ -1,5 +1,5 @@
 
-class Px{
+export default class Px{
     constructor(imageUrl){
 
         this.imageArray = [];
